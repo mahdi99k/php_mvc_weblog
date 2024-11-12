@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+    options -Multiviews
+    RewriteEngine on
+    RewriteBase /php_mvc_tur/public
+    RewriteCond %{Request_FileName} !-d
+    RewriteCond %{Request_FileName} !-f
+    RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+</IfModule>

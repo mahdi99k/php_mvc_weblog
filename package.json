@@ -1,0 +1,15 @@
+{
+  "name": "php_mvc_tur",
+  "version": "1.0.0",
+  "description": "php mvc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "php",
+    "mvc"
+  ],
+  "author": "mahdishm",
+  "license": "ISC"
+}
